@@ -1,0 +1,80 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    color: #111827;
+
+    font-family: "Inter", serif;
+}
+
+main{
+    width: 480px;
+    margin: auto;
+}
+
+nav{
+    background-color: white;
+    height: 90px;
+    margin: auto;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+}
+
+#color-input, select, button{
+    height: 42px;
+    font-family: "Inter", serif;
+    border: 1px solid #D1D5DB;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+}
+
+#color-input{
+    min-width: 61px;
+}
+
+select{
+    max-width: 400px;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0 10px;
+}
+
+button{
+    min-width: 123px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+section{
+    width: 480px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+p{
+    background-color: white;
+    padding: 15px 0;
+    margin: 0;
+}
+
+#id0, #id1, #id2, #id3, #id4{
+    height: 50vh;
+    min-height: 100px;
+}
+
+@media (min-width:480px){
+    section, main{
+        width:100%;
+    }
+}
+
+@media (min-width:1024px){
+    main{
+        width:1024px;
+    }
+}

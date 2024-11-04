@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1"
+    </head>
+    <body>
+        <main>
+            <nav>
+                <input type="color" id="color-input"/>
+                <select name="scheme" id="scheme-select">
+                    <option value="monochrome">Monochrome</option>
+                    <option value="monochrome-dark">Monochrome-dark</option>
+                    <option value="monochrome-light">Monochrome-light</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="analogic-complement">Analogic-complement</option>
+                    <option value="triad">Triad</option>
+                    <option value="quad">Quad</option>
+                </select>
+                <button id="get-color-scheme-btn">Get color scheme</button>
+            </nav>
+            <section id="colors-section">
+                <div class="color-line" id="#000000">
+                    <div id="id0" style="background-color:#000000"></div>
+                    <p>#000000</p>
+                </div>
+                <div class="color-line" id="#1A1919">
+                    <div id="id1" style="background-color:#1A1919"></div>
+                    <p>#1A1919</p>
+                </div>
+                <div class="color-line" id="#343232">
+                    <div id="id2" style="background-color:#343232"></div>
+                    <p>#343232</p>
+                </div>
+                <div class="color-line" id="#4F4A4A">
+                    <div id="id3" style="background-color:#4F4A4A"></div>
+                    <p>#4F4A4A</p>
+                </div>
+                <div class="color-line" id="#6A6262">
+                    <div id="id4" style="background-color:#6A6262"></div>
+                    <p>#6A6262</p>
+                </div>
+            </section>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
